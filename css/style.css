@@ -1,0 +1,51 @@
+@font-face {
+    font-family: font;
+    src: url(../fonts/TitilliumWeb-Regular.ttf);
+}
+:root{
+    --bg-color:rgb(36, 53, 63);
+    --color:rgb(23, 162, 184);
+}
+body{
+    margin: 0;
+    font-family: font;
+    
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+.sec1{
+    background-color: var(--bg-color);
+    .container{
+        box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+        h1{
+            color: var(--color);
+        }
+         input{
+            background-color: transparent !important;
+            color: white !important;
+        } 
+        button:hover{
+            color: white;
+        }
+        a:hover{
+            text-decoration: underline !important;
+        }
+    }
+}
+.success{
+    background-color: var(--bg-color);
+    .nav{
+        box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+    }
+    .container{
+        box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+        h1{
+            font-size: 40px;
+            line-height: 48px;
+            font-weight: 500;
+            color: var(--color);
+        }
+    }
+}

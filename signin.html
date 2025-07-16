@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="sec1 vh-100 p-5">
+        <div class="container w-50 mx-auto text-center p-5">
+<h1>Smart Login System</h1>
+<div class="d-none">
+    <input id="signupName" type="text" class="form-control" placeholder="Enter your name">
+<input id="Email" class="form-control my-3" placeholder="Enter your email" type="text" fdprocessedid="drlfn6">
+    <input id="Password" class="form-control my-3" placeholder="Enter your password" type="password" fdprocessedid="pnf2mb">
+   <button class="btn signup btn-outline-info w-100 my-3" fdprocessedid="h5wmnc">Sign Up</button>
+</div>
+<input id="signinEmail" class="form-control my-3" placeholder="Enter your email" type="text" fdprocessedid="drlfn6">
+    <input id="signinPassword" class="form-control my-3" placeholder="Enter your password" type="password" fdprocessedid="pnf2mb">
+    <div id="failedAlertsignin" class="alert text-center d-none text-danger" role="alert">
+        incorrect email or password
+      </div>
+  <button id="signin" class="btn btn-outline-info w-100 my-3" fdprocessedid="h5wmnc">Login</button>
+  <p class="text-white">Don’t have an account? <a class="text-decoration-none text-white" href="signup.html">Sign Up</a></p>
+        </div>
+    </div>
+<div class="success vh-100 d-none"></div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
